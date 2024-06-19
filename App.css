@@ -1,0 +1,47 @@
+.App{
+    background-color:  rgb(79, 79, 79);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.stroke-text{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.blur{
+    background: rgb(189, 111, 21,0.5);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(130px);
+}
+
+/* Light Mode */
+.text-form.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark Mode */
+  .text-form.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Button Style */
+  .text-form button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .text-form button:hover {
+    background-color: #0056b3;
+  }
+  

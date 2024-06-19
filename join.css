@@ -1,0 +1,48 @@
+.join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+
+.leftj{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.leftj .line{
+    width: 10rem;
+    height: 0.5rem;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+
+}
+
+.rightj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_div{
+    display: flex;
+    gap: 3rem;
+    background-color: darkgray;
+    padding: 1rem 2rem;
+}
+.rightj input{
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.rightj button{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-weight: bold;
+}

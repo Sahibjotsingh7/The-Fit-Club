@@ -1,0 +1,24 @@
+.header{
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo{
+    height: 3rem;
+    width: 10rem;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    font-size: 18px;
+}
+
+
+.menu li:hover{
+    cursor: pointer;
+    color: rgb(255, 128, 0);
+    transform: scale(1.2);
+}
+

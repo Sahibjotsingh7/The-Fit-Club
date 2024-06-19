@@ -1,0 +1,127 @@
+.testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.tleft{
+    display: flex;
+    flex: 1 1;
+    gap: 1rem;
+    flex-direction: column;
+    color: white;
+}
+
+.tleft :nth-child(1){
+    color:rgb(255, 128, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tleft :nth-child(2), .tleft :nth-child(3){
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tleft :nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+   
+}
+
+.tright{
+  flex: 1;
+  position: relative;
+}
+
+.tright img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+    animation: image 1s linear;
+}
+
+.tright .thin{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border-top: 2px solid rgb(255, 128, 0);
+    border-left: 2px solid rgb(255, 128, 0);
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+    animation: thinn  1s linear;
+}
+
+.tright .thik{
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    border-bottom: 2rem solid rgb(255, 128, 0);
+    border-right: 2rem solid rgb(255, 128, 0);
+    right: 7rem;
+    top: 5rem;
+    animation: thik 1s linear;
+}
+
+.tright .a1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    bottom: 0;
+    padding: 1rem;
+    right: 38rem;
+}
+
+.tright .a2{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    bottom: 0;
+    padding: 1rem;
+    right: 35rem;
+}
+
+@keyframes image {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes thik {
+    0%{
+         transform: translateX(2rem);
+         transform: translateY(2rem);
+    }
+    100%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes thinn {
+    0%{
+         transform: translateX(-2rem);
+         transform: translateY(-2rem);
+    }
+    100%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+
